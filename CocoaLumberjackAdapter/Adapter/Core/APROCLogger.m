@@ -6,12 +6,13 @@
 //  Copyright © 2020 iosguy. All rights reserved.
 //
 
-#import "CocoaLumberjackAdapter.h"
+#import "APROCLogger.h"
+#import "APROCLogger+Private.h"
 #import <objc/runtime.h>
 
 const NSInteger APRLumberjackContext = (NSInteger)0xced70676;
 
-@protocol APRLogger_DDLog
+@protocol APROCLogger_DDLog
 
 // Copied from CocoaLumberjack's DDLog interface
 + (void) log:(BOOL)asynchronous message:(NSString *)message level:(NSUInteger)level flag:(NSUInteger)flag context:(NSInteger)context file:(const char *)file function:(const char *)function line:(NSUInteger)line tag:(id)tag;
@@ -34,7 +35,7 @@ static void (^LogHandler)(NSString * (^)(void), APRLogLevel, const char *, const
         NSLog(@"[APRLogger] %@", message());
 };
 
-@implementation APRLogger
+@implementation APROCLogger
 
 + (void) initialize
 {
@@ -45,7 +46,7 @@ static void (^LogHandler)(NSString * (^)(void), APRLogLevel, const char *, const
         {
             const SEL logSeletor = @selector(log:message:level:flag:context:file:function:line:tag:);
             const char *typeEncoding = method_getTypeEncoding((Method)class_getClassMethod(DDLogClass, logSeletor));
-            const char *expectedTypeEncoding = protocol_getMethodDescription(@protocol(APRLogger_DDLog), logSeletor, /* isRequiredMethod: */ YES, /* isInstanceMethod: */ NO).types;
+            const char *expectedTypeEncoding = protocol_getMethodDescription(@protocol(APROCLogger_DDLog), logSeletor, /* isRequiredMethod: */ YES, /* isInstanceMethod: */ NO).types;
             if (typeEncoding && expectedTypeEncoding && strcmp(typeEncoding, expectedTypeEncoding) == 0) {
                 NSLog(@"Injected CocoaLumberjackLog");
                 LogHandler = CocoaLumberjackLogHandler;
@@ -65,6 +66,26 @@ static void (^LogHandler)(NSString * (^)(void), APRLogLevel, const char *, const
 {
     if (LogHandler)
         LogHandler(message, level, file, function, line);
+}
+
++ (void)warning:(NSString *)logString {
+    APROCLogWarning(@"%@", logString);
+}
+
++ (void)info:(NSString *)logString {
+    APROCLogInfo(@"%@", logString);
+}
+
++ (void)error:(NSString *)logString {
+    APROCLogError(@"%@", logString);
+}
+
++ (void)debug:(NSString *)logString {
+    APROCLogDebug(@"%@", logString);
+}
+
++ (void)verbose:(NSString *)logString {
+    APROCLogVerbose(@"%@", logString);
 }
 
 @end

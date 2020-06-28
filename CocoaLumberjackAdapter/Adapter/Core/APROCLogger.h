@@ -28,7 +28,7 @@ typedef NS_ENUM(NSUInteger, APRLogLevel) {
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface APRLogger : NSObject
+@interface APROCLogger : NSObject
 
 /**
  @param logHandler The block called when a log is emitted by the XCDYouTubeKit framework. If you set the log handler to nil, logging will be completely disabled.
@@ -41,6 +41,12 @@ NS_ASSUME_NONNULL_BEGIN
  
  */
 + (void) setLogHandler:(void (^)(NSString * (^message)(void), APRLogLevel level, const char *file, const char *function, NSUInteger line))logHandler;
+
++ (void)warning:(NSString *)logString;
++ (void)info:(NSString *)logString;
++ (void)error:(NSString *)logString;
++ (void)debug:(NSString *)logString;
++ (void)verbose:(NSString *)logString;
 
 @end
 
