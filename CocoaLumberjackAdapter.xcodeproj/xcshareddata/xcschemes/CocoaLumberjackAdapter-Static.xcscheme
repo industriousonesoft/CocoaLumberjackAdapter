@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EE93C00D24A87511004FE29D"
-               BuildableName = "libCocoaLumberjackAdapter-Static.a"
+               BuildableName = "libAPRLogger.a"
                BlueprintName = "CocoaLumberjackAdapter-Static"
                ReferencedContainer = "container:CocoaLumberjackAdapter.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EE93C00D24A87511004FE29D"
-            BuildableName = "libCocoaLumberjackAdapter-Static.a"
+            BuildableName = "libAPRLogger.a"
             BlueprintName = "CocoaLumberjackAdapter-Static"
             ReferencedContainer = "container:CocoaLumberjackAdapter.xcodeproj">
          </BuildableReference>

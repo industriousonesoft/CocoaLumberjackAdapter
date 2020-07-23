@@ -26,6 +26,7 @@
 		EE93C00E24A87511004FE29D /* libAPRLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPRLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE93C02D24A87A9E004FE29D /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		EE93C03724A87CDD004FE29D /* APRLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APRLogger.swift; sourceTree = "<group>"; };
+		EEB3D55C24C94201001A317D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		EE93BFF324A84162004FE29D /* CocoaLumberjackAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				EEB3D55C24C94201001A317D /* Package.swift */,
 				EE93C02C24A87A86004FE29D /* OCHelper */,
 				EE93BFFC24A8416E004FE29D /* Adapter */,
 				EE93BFF524A84163004FE29D /* Info.plist */,
