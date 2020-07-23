@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE93C00324A84618004FE29D /* APROCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE93C00124A84618004FE29D /* APROCLogger.h */; };
-		EE93C00424A84618004FE29D /* APROCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE93C00224A84618004FE29D /* APROCLogger.m */; };
-		EE93C00824A84C98004FE29D /* APROCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EE93C00524A849A0004FE29D /* APROCLogger+Private.h */; };
-		EE93C01724A87548004FE29D /* APROCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE93C00124A84618004FE29D /* APROCLogger.h */; };
-		EE93C01824A87548004FE29D /* APROCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE93C00224A84618004FE29D /* APROCLogger.m */; };
-		EE93C01924A87548004FE29D /* APROCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EE93C00524A849A0004FE29D /* APROCLogger+Private.h */; };
-		EE93C03824A87CDD004FE29D /* APRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93C03724A87CDD004FE29D /* APRLogger.swift */; };
-		EE93C03924A87D15004FE29D /* APRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93C03724A87CDD004FE29D /* APRLogger.swift */; };
+		EEB3D56824C967E6001A317D /* APRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB3D56124C967E6001A317D /* APRLogger.swift */; };
+		EEB3D56924C967E6001A317D /* APRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB3D56124C967E6001A317D /* APRLogger.swift */; };
+		EEB3D56A24C967E6001A317D /* APROCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB3D56324C967E6001A317D /* APROCLogger.m */; };
+		EEB3D56B24C967E6001A317D /* APROCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB3D56324C967E6001A317D /* APROCLogger.m */; };
+		EEB3D56C24C967E6001A317D /* APROCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB3D56424C967E6001A317D /* APROCLogger.h */; };
+		EEB3D56D24C967E6001A317D /* APROCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB3D56424C967E6001A317D /* APROCLogger.h */; };
+		EEB3D56E24C967E6001A317D /* APROCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB3D56524C967E6001A317D /* APROCLogger+Private.h */; };
+		EEB3D56F24C967E6001A317D /* APROCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB3D56524C967E6001A317D /* APROCLogger+Private.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE93BFF124A84162004FE29D /* CocoaLumberjackAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjackAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE93BFF524A84163004FE29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE93C00124A84618004FE29D /* APROCLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APROCLogger.h; sourceTree = "<group>"; };
-		EE93C00224A84618004FE29D /* APROCLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APROCLogger.m; sourceTree = "<group>"; };
-		EE93C00524A849A0004FE29D /* APROCLogger+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APROCLogger+Private.h"; sourceTree = "<group>"; };
 		EE93C00E24A87511004FE29D /* libAPRLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPRLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE93C02D24A87A9E004FE29D /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		EE93C03724A87CDD004FE29D /* APRLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APRLogger.swift; sourceTree = "<group>"; };
 		EEB3D55C24C94201001A317D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
+		EEB3D56124C967E6001A317D /* APRLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APRLogger.swift; sourceTree = "<group>"; };
+		EEB3D56324C967E6001A317D /* APROCLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APROCLogger.m; sourceTree = "<group>"; };
+		EEB3D56424C967E6001A317D /* APROCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APROCLogger.h; sourceTree = "<group>"; };
+		EEB3D56524C967E6001A317D /* APROCLogger+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APROCLogger+Private.h"; sourceTree = "<group>"; };
+		EEB3D56724C967E6001A317D /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,38 +68,46 @@
 			isa = PBXGroup;
 			children = (
 				EEB3D55C24C94201001A317D /* Package.swift */,
-				EE93C02C24A87A86004FE29D /* OCHelper */,
-				EE93BFFC24A8416E004FE29D /* Adapter */,
+				EEB3D55F24C967E6001A317D /* Sources */,
 				EE93BFF524A84163004FE29D /* Info.plist */,
 			);
 			path = CocoaLumberjackAdapter;
 			sourceTree = "<group>";
 		};
-		EE93BFFC24A8416E004FE29D /* Adapter */ = {
+		EEB3D55F24C967E6001A317D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				EE93C03624A87CC7004FE29D /* Core */,
-				EE93C03724A87CDD004FE29D /* APRLogger.swift */,
+				EEB3D56024C967E6001A317D /* Adapter */,
+				EEB3D56624C967E6001A317D /* OCHelper */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		EEB3D56024C967E6001A317D /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				EEB3D56124C967E6001A317D /* APRLogger.swift */,
+				EEB3D56224C967E6001A317D /* Core */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
 		};
-		EE93C02C24A87A86004FE29D /* OCHelper */ = {
+		EEB3D56224C967E6001A317D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				EE93C02D24A87A9E004FE29D /* module.modulemap */,
-			);
-			path = OCHelper;
-			sourceTree = "<group>";
-		};
-		EE93C03624A87CC7004FE29D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				EE93C00124A84618004FE29D /* APROCLogger.h */,
-				EE93C00224A84618004FE29D /* APROCLogger.m */,
-				EE93C00524A849A0004FE29D /* APROCLogger+Private.h */,
+				EEB3D56324C967E6001A317D /* APROCLogger.m */,
+				EEB3D56424C967E6001A317D /* APROCLogger.h */,
+				EEB3D56524C967E6001A317D /* APROCLogger+Private.h */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		EEB3D56624C967E6001A317D /* OCHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EEB3D56724C967E6001A317D /* module.modulemap */,
+			);
+			path = OCHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,8 +117,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE93C00324A84618004FE29D /* APROCLogger.h in Headers */,
-				EE93C00824A84C98004FE29D /* APROCLogger+Private.h in Headers */,
+				EEB3D56E24C967E6001A317D /* APROCLogger+Private.h in Headers */,
+				EEB3D56C24C967E6001A317D /* APROCLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +126,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE93C01724A87548004FE29D /* APROCLogger.h in Headers */,
-				EE93C01924A87548004FE29D /* APROCLogger+Private.h in Headers */,
+				EEB3D56F24C967E6001A317D /* APROCLogger+Private.h in Headers */,
+				EEB3D56D24C967E6001A317D /* APROCLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE93C03824A87CDD004FE29D /* APRLogger.swift in Sources */,
-				EE93C00424A84618004FE29D /* APROCLogger.m in Sources */,
+				EEB3D56824C967E6001A317D /* APRLogger.swift in Sources */,
+				EEB3D56A24C967E6001A317D /* APROCLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,8 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE93C01824A87548004FE29D /* APROCLogger.m in Sources */,
-				EE93C03924A87D15004FE29D /* APRLogger.swift in Sources */,
+				EEB3D56924C967E6001A317D /* APRLogger.swift in Sources */,
+				EEB3D56B24C967E6001A317D /* APROCLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +421,7 @@
 				MY_PRODUCT_NAME = APRLogger;
 				PRODUCT_NAME = "$(MY_PRODUCT_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/CocoaLumberjackAdapter/OCHelper\"";
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Sources/OCHelper\"";
 			};
 			name = Debug;
 		};
@@ -426,7 +434,7 @@
 				MY_PRODUCT_NAME = APRLogger;
 				PRODUCT_NAME = "$(MY_PRODUCT_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/CocoaLumberjackAdapter/OCHelper\"";
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Sources/OCHelper\"";
 			};
 			name = Release;
 		};
