@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EE93BFF024A84162004FE29D"
-               BuildableName = "CocoaLumberjackAdapter.framework"
+               BuildableName = "SwiftyAPRLogger.framework"
                BlueprintName = "CocoaLumberjackAdapter"
                ReferencedContainer = "container:CocoaLumberjackAdapter.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EE93BFF024A84162004FE29D"
-            BuildableName = "CocoaLumberjackAdapter.framework"
+            BuildableName = "SwiftyAPRLogger.framework"
             BlueprintName = "CocoaLumberjackAdapter"
             ReferencedContainer = "container:CocoaLumberjackAdapter.xcodeproj">
          </BuildableReference>
