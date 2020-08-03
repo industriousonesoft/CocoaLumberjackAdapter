@@ -93,24 +93,16 @@
 			isa = PBXGroup;
 			children = (
 				EEB3D57224C96ADD001A317D /* APRLogger.swift */,
-				EEB3D57324C96ADD001A317D /* Core */,
 			);
 			path = Adapter;
-			sourceTree = "<group>";
-		};
-		EEB3D57324C96ADD001A317D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				EEB3D57424C96ADD001A317D /* APROCLogger.m */,
-				EEB3D57524C96ADD001A317D /* APROCLogger.h */,
-				EEB3D57624C96ADD001A317D /* APROCLogger+Private.h */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		EEB3D57824C96ADD001A317D /* OCHelper */ = {
 			isa = PBXGroup;
 			children = (
+				EEB3D57424C96ADD001A317D /* APROCLogger.m */,
+				EEB3D57524C96ADD001A317D /* APROCLogger.h */,
+				EEB3D57624C96ADD001A317D /* APROCLogger+Private.h */,
 				EEB3D57924C96ADD001A317D /* module.modulemap */,
 			);
 			path = OCHelper;

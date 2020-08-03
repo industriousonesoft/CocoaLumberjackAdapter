@@ -1,4 +1,4 @@
 module APROCLogger[system] {
-    header "../Adapter/Core/APROCLogger.h"
+    header "APROCLogger.h"
     export *
 }
