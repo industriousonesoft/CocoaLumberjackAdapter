@@ -8,27 +8,27 @@
 
 #import <Foundation/Foundation.h>
 
-extern const NSInteger APRLumberjackContext;
+extern const NSInteger IGYLumberjackContext;
 
 /**
  *  The log levels, closely mirroring the log levels of CocoaLumberjack.
  */
-typedef NS_ENUM(NSUInteger, APRLogLevel) {
+typedef NS_ENUM(NSUInteger, IGYLogLevel) {
     
-    APRLogLevelError   = 0,
+    IGYLogLevelError   = 0,
    
-    APRLogLevelWarning = 1,
+    IGYLogLevelWarning = 1,
    
-    APRLogLevelInfo    = 2,
+    IGYLogLevelInfo    = 2,
    
-    APRLogLevelDebug   = 3,
+    IGYLogLevelDebug   = 3,
     
-    APRLogLevelVerbose = 4,
+    IGYLogLevelVerbose = 4,
 };
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface APROCLogger : NSObject
+@interface IGYOCLogger : NSObject
 
 /**
  @param logHandler The block called when a log is emitted by the XCDYouTubeKit framework. If you set the log handler to nil, logging will be completely disabled.
@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  - The `line` parameter is the line number, captured with the `__LINE__` macro where the log is emitted.
  
  */
-+ (void) setLogHandler:(void (^)(NSString * (^message)(void), APRLogLevel level, const char *file, const char *function, NSUInteger line))logHandler;
++ (void) setLogHandler:(void (^)(NSString * (^message)(void), IGYLogLevel level, const char *file, const char *function, NSUInteger line))logHandler;
 
 + (void)warning:(NSString *)logString;
 + (void)info:(NSString *)logString;

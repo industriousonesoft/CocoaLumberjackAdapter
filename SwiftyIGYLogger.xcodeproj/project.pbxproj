@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEA4312B2595F4B4002EC5ED /* APRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA431252595F4B4002EC5ED /* APRLogger.swift */; };
-		EEA4312C2595F4B4002EC5ED /* APROCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA431272595F4B4002EC5ED /* APROCLogger.m */; };
-		EEA4312D2595F4B4002EC5ED /* APROCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA431282595F4B4002EC5ED /* APROCLogger.h */; };
-		EEA4312E2595F4B4002EC5ED /* APROCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4312A2595F4B4002EC5ED /* APROCLogger+Private.h */; };
+		EEA4312B2595F4B4002EC5ED /* IGYLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA431252595F4B4002EC5ED /* IGYLogger.swift */; };
+		EEA4312C2595F4B4002EC5ED /* IGYOCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA431272595F4B4002EC5ED /* IGYOCLogger.m */; };
+		EEA4312D2595F4B4002EC5ED /* IGYOCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA431282595F4B4002EC5ED /* IGYOCLogger.h */; };
+		EEA4312E2595F4B4002EC5ED /* IGYOCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4312A2595F4B4002EC5ED /* IGYOCLogger+Private.h */; };
 		EEA4313D2595F59F002EC5ED /* IGYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4313B2595F59F002EC5ED /* IGYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEA431422595F5DD002EC5ED /* IGYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4313B2595F59F002EC5ED /* IGYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEA431432595F5FF002EC5ED /* APRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA431252595F4B4002EC5ED /* APRLogger.swift */; };
-		EEA431442595F603002EC5ED /* APROCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA431272595F4B4002EC5ED /* APROCLogger.m */; };
-		EEA431452595F603002EC5ED /* APROCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA431282595F4B4002EC5ED /* APROCLogger.h */; };
-		EEA431462595F606002EC5ED /* APROCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4312A2595F4B4002EC5ED /* APROCLogger+Private.h */; };
+		EEA431432595F5FF002EC5ED /* IGYLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA431252595F4B4002EC5ED /* IGYLogger.swift */; };
+		EEA431442595F603002EC5ED /* IGYOCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA431272595F4B4002EC5ED /* IGYOCLogger.m */; };
+		EEA431452595F603002EC5ED /* IGYOCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA431282595F4B4002EC5ED /* IGYOCLogger.h */; };
+		EEA431462595F606002EC5ED /* IGYOCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4312A2595F4B4002EC5ED /* IGYOCLogger+Private.h */; };
 		EEA4314E2595F647002EC5ED /* IGYLogger_Static_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4314D2595F647002EC5ED /* IGYLogger_Static_macOS.h */; };
 		EEA431502595F647002EC5ED /* IGYLogger_Static_macOS.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA4314F2595F647002EC5ED /* IGYLogger_Static_macOS.m */; };
-		EEA431542595F652002EC5ED /* APRLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA431252595F4B4002EC5ED /* APRLogger.swift */; };
-		EEA431552595F654002EC5ED /* APROCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA431272595F4B4002EC5ED /* APROCLogger.m */; };
-		EEA431562595F654002EC5ED /* APROCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA431282595F4B4002EC5ED /* APROCLogger.h */; };
-		EEA431572595F656002EC5ED /* APROCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4312A2595F4B4002EC5ED /* APROCLogger+Private.h */; };
+		EEA431542595F652002EC5ED /* IGYLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA431252595F4B4002EC5ED /* IGYLogger.swift */; };
+		EEA431552595F654002EC5ED /* IGYOCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA431272595F4B4002EC5ED /* IGYOCLogger.m */; };
+		EEA431562595F654002EC5ED /* IGYOCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA431282595F4B4002EC5ED /* IGYOCLogger.h */; };
+		EEA431572595F656002EC5ED /* IGYOCLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA4312A2595F4B4002EC5ED /* IGYOCLogger+Private.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEA431182595F467002EC5ED /* SwiftyIGYLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyIGYLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEA431252595F4B4002EC5ED /* APRLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APRLogger.swift; sourceTree = "<group>"; };
-		EEA431272595F4B4002EC5ED /* APROCLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APROCLogger.m; sourceTree = "<group>"; };
-		EEA431282595F4B4002EC5ED /* APROCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APROCLogger.h; sourceTree = "<group>"; };
+		EEA431252595F4B4002EC5ED /* IGYLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGYLogger.swift; sourceTree = "<group>"; };
+		EEA431272595F4B4002EC5ED /* IGYOCLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGYOCLogger.m; sourceTree = "<group>"; };
+		EEA431282595F4B4002EC5ED /* IGYOCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGYOCLogger.h; sourceTree = "<group>"; };
 		EEA431292595F4B4002EC5ED /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		EEA4312A2595F4B4002EC5ED /* APROCLogger+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APROCLogger+Private.h"; sourceTree = "<group>"; };
+		EEA4312A2595F4B4002EC5ED /* IGYOCLogger+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IGYOCLogger+Private.h"; sourceTree = "<group>"; };
 		EEA431312595F4BD002EC5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEA431392595F59F002EC5ED /* SwiftyIGYLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyIGYLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA4313B2595F59F002EC5ED /* IGYLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGYLogger.h; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		EEA431242595F4B4002EC5ED /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				EEA431252595F4B4002EC5ED /* APRLogger.swift */,
+				EEA431252595F4B4002EC5ED /* IGYLogger.swift */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -114,10 +114,10 @@
 		EEA431262595F4B4002EC5ED /* OCHelper */ = {
 			isa = PBXGroup;
 			children = (
-				EEA431272595F4B4002EC5ED /* APROCLogger.m */,
-				EEA431282595F4B4002EC5ED /* APROCLogger.h */,
+				EEA431272595F4B4002EC5ED /* IGYOCLogger.m */,
+				EEA431282595F4B4002EC5ED /* IGYOCLogger.h */,
 				EEA431292595F4B4002EC5ED /* module.modulemap */,
-				EEA4312A2595F4B4002EC5ED /* APROCLogger+Private.h */,
+				EEA4312A2595F4B4002EC5ED /* IGYOCLogger+Private.h */,
 			);
 			path = OCHelper;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA4312E2595F4B4002EC5ED /* APROCLogger+Private.h in Headers */,
+				EEA4312E2595F4B4002EC5ED /* IGYOCLogger+Private.h in Headers */,
 				EEA431422595F5DD002EC5ED /* IGYLogger.h in Headers */,
-				EEA4312D2595F4B4002EC5ED /* APROCLogger.h in Headers */,
+				EEA4312D2595F4B4002EC5ED /* IGYOCLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +174,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA431452595F603002EC5ED /* APROCLogger.h in Headers */,
+				EEA431452595F603002EC5ED /* IGYOCLogger.h in Headers */,
 				EEA4313D2595F59F002EC5ED /* IGYLogger.h in Headers */,
-				EEA431462595F606002EC5ED /* APROCLogger+Private.h in Headers */,
+				EEA431462595F606002EC5ED /* IGYOCLogger+Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,9 +184,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA431562595F654002EC5ED /* APROCLogger.h in Headers */,
+				EEA431562595F654002EC5ED /* IGYOCLogger.h in Headers */,
 				EEA4314E2595F647002EC5ED /* IGYLogger_Static_macOS.h in Headers */,
-				EEA431572595F656002EC5ED /* APROCLogger+Private.h in Headers */,
+				EEA431572595F656002EC5ED /* IGYOCLogger+Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA4312B2595F4B4002EC5ED /* APRLogger.swift in Sources */,
-				EEA4312C2595F4B4002EC5ED /* APROCLogger.m in Sources */,
+				EEA4312B2595F4B4002EC5ED /* IGYLogger.swift in Sources */,
+				EEA4312C2595F4B4002EC5ED /* IGYOCLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +317,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA431432595F5FF002EC5ED /* APRLogger.swift in Sources */,
-				EEA431442595F603002EC5ED /* APROCLogger.m in Sources */,
+				EEA431432595F5FF002EC5ED /* IGYLogger.swift in Sources */,
+				EEA431442595F603002EC5ED /* IGYOCLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEA431502595F647002EC5ED /* IGYLogger_Static_macOS.m in Sources */,
-				EEA431542595F652002EC5ED /* APRLogger.swift in Sources */,
-				EEA431552595F654002EC5ED /* APROCLogger.m in Sources */,
+				EEA431542595F652002EC5ED /* IGYLogger.swift in Sources */,
+				EEA431552595F654002EC5ED /* IGYOCLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +472,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosguy.IGYLogger;
 				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
@@ -497,6 +498,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosguy.IGYLogger;
 				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
@@ -516,7 +518,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SupportingFiles/iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +545,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SupportingFiles/iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,6 +568,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
 				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
 				SKIP_INSTALL = YES;
@@ -579,6 +582,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
 				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
 				SKIP_INSTALL = YES;

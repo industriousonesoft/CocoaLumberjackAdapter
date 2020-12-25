@@ -7,28 +7,28 @@
 //
 
 import Foundation
-import APROCLogger
+import IGYOCLogger
 
 public
-enum APRLogger {
+enum IGYLogger {
     public
     static func warning(_ msg: String) {
-        APROCLogger.warning(msg)
+        IGYOCLogger.warning(msg)
     }
     public
     static func info(_ msg: String) {
-        APROCLogger.info(msg)
+        IGYOCLogger.info(msg)
     }
     public
     static func error(_ msg: String) {
-        APROCLogger.error(msg)
+        IGYOCLogger.error(msg)
     }
     public
     static func debug(_ msg: String) {
-        APROCLogger.debug(msg)
+        IGYOCLogger.debug(msg)
     }
     public
     static func verbose(_ msg: String) {
-        APROCLogger.verbose(msg)
+        IGYOCLogger.verbose(msg)
     }
 }

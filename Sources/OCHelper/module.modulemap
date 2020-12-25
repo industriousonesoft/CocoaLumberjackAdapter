@@ -1,4 +1,4 @@
-module APROCLogger[system] {
-    header "APROCLogger.h"
+module IGYOCLogger[system] {
+    header "IGYOCLogger.h"
     export *
 }
