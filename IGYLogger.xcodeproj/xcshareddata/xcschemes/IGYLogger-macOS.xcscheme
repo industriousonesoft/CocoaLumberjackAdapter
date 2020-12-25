@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1150"
+   LastUpgradeVersion = "1170"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE93C00D24A87511004FE29D"
-               BuildableName = "libSwiftyAPRLogger.a"
-               BlueprintName = "CocoaLumberjackAdapter-Static"
-               ReferencedContainer = "container:CocoaLumberjackAdapter.xcodeproj">
+               BlueprintIdentifier = "EEA431172595F467002EC5ED"
+               BuildableName = "IGYLogger_macOS.framework"
+               BlueprintName = "IGYLogger-macOS"
+               ReferencedContainer = "container:IGYLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE93C00D24A87511004FE29D"
-            BuildableName = "libSwiftyAPRLogger.a"
-            BlueprintName = "CocoaLumberjackAdapter-Static"
-            ReferencedContainer = "container:CocoaLumberjackAdapter.xcodeproj">
+            BlueprintIdentifier = "EEA431172595F467002EC5ED"
+            BuildableName = "IGYLogger_macOS.framework"
+            BlueprintName = "IGYLogger-macOS"
+            ReferencedContainer = "container:IGYLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
