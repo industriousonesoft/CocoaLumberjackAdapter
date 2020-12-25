@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EEA431172595F467002EC5ED"
-               BuildableName = "IGYLogger_macOS.framework"
-               BlueprintName = "IGYLogger-macOS"
-               ReferencedContainer = "container:IGYLogger.xcodeproj">
+               BlueprintIdentifier = "EEA431382595F59F002EC5ED"
+               BuildableName = "SwiftyIGYLogger.framework"
+               BlueprintName = "SwiftyIGYLogger-iOS"
+               ReferencedContainer = "container:SwiftyIGYLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EEA431172595F467002EC5ED"
-            BuildableName = "IGYLogger_macOS.framework"
-            BlueprintName = "IGYLogger-macOS"
-            ReferencedContainer = "container:IGYLogger.xcodeproj">
+            BlueprintIdentifier = "EEA431382595F59F002EC5ED"
+            BuildableName = "SwiftyIGYLogger.framework"
+            BlueprintName = "SwiftyIGYLogger-iOS"
+            ReferencedContainer = "container:SwiftyIGYLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

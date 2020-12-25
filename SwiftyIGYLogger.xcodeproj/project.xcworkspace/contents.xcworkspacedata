@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IGYLogger.xcodeproj">
+      location = "self:/Users/markcao/Documents/Github_Codes/SwiftyIGYLogger/SwiftyIGYLogger.xcodeproj">
    </FileRef>
 </Workspace>

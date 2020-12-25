@@ -193,9 +193,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EEA431172595F467002EC5ED /* IGYLogger-macOS */ = {
+		EEA431172595F467002EC5ED /* SwiftyIGYLogger-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEA431202595F467002EC5ED /* Build configuration list for PBXNativeTarget "IGYLogger-macOS" */;
+			buildConfigurationList = EEA431202595F467002EC5ED /* Build configuration list for PBXNativeTarget "SwiftyIGYLogger-macOS" */;
 			buildPhases = (
 				EEA431132595F467002EC5ED /* Headers */,
 				EEA431142595F467002EC5ED /* Sources */,
@@ -206,14 +206,14 @@
 			);
 			dependencies = (
 			);
-			name = "IGYLogger-macOS";
+			name = "SwiftyIGYLogger-macOS";
 			productName = IGYLogger;
 			productReference = EEA431182595F467002EC5ED /* SwiftyIGYLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EEA431382595F59F002EC5ED /* IGYLogger-iOS */ = {
+		EEA431382595F59F002EC5ED /* SwiftyIGYLogger-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEA4313E2595F59F002EC5ED /* Build configuration list for PBXNativeTarget "IGYLogger-iOS" */;
+			buildConfigurationList = EEA4313E2595F59F002EC5ED /* Build configuration list for PBXNativeTarget "SwiftyIGYLogger-iOS" */;
 			buildPhases = (
 				EEA431342595F59F002EC5ED /* Headers */,
 				EEA431352595F59F002EC5ED /* Sources */,
@@ -224,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = "IGYLogger-iOS";
+			name = "SwiftyIGYLogger-iOS";
 			productName = "IGYLogger-iOS";
 			productReference = EEA431392595F59F002EC5ED /* SwiftyIGYLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EEA4314A2595F647002EC5ED /* IGYLogger-Static-macOS */ = {
+		EEA4314A2595F647002EC5ED /* SwiftyIGYLogger-Static-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEA431512595F647002EC5ED /* Build configuration list for PBXNativeTarget "IGYLogger-Static-macOS" */;
+			buildConfigurationList = EEA431512595F647002EC5ED /* Build configuration list for PBXNativeTarget "SwiftyIGYLogger-Static-macOS" */;
 			buildPhases = (
 				EEA431472595F647002EC5ED /* Headers */,
 				EEA431482595F647002EC5ED /* Sources */,
@@ -241,7 +241,7 @@
 			);
 			dependencies = (
 			);
-			name = "IGYLogger-Static-macOS";
+			name = "SwiftyIGYLogger-Static-macOS";
 			productName = "IGYLogger-Static-macOS";
 			productReference = EEA4314B2595F647002EC5ED /* libSwiftyIGYLogger.a */;
 			productType = "com.apple.product-type.library.static";
@@ -266,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EEA431122595F466002EC5ED /* Build configuration list for PBXProject "IGYLogger" */;
+			buildConfigurationList = EEA431122595F466002EC5ED /* Build configuration list for PBXProject "SwiftyIGYLogger" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -279,9 +279,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EEA431172595F467002EC5ED /* IGYLogger-macOS */,
-				EEA431382595F59F002EC5ED /* IGYLogger-iOS */,
-				EEA4314A2595F647002EC5ED /* IGYLogger-Static-macOS */,
+				EEA431172595F467002EC5ED /* SwiftyIGYLogger-macOS */,
+				EEA431382595F59F002EC5ED /* SwiftyIGYLogger-iOS */,
+				EEA4314A2595F647002EC5ED /* SwiftyIGYLogger-Static-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -474,7 +474,7 @@
 				);
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosguy.IGYLogger;
-				PRODUCT_NAME = "$(MY_PRODUCT_NAME)";
+				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Sources/OCHelper\"";
 				SWIFT_VERSION = 5.0;
@@ -499,7 +499,7 @@
 				);
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosguy.IGYLogger;
-				PRODUCT_NAME = "$(MY_PRODUCT_NAME)";
+				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Sources/OCHelper\"";
 				SWIFT_VERSION = 5.0;
@@ -524,7 +524,7 @@
 				);
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosguy.IGYLogger-iOS";
-				PRODUCT_NAME = "$(MY_PRODUCT_NAME)";
+				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Sources/OCHelper\"";
@@ -551,7 +551,7 @@
 				);
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosguy.IGYLogger-iOS";
-				PRODUCT_NAME = "$(MY_PRODUCT_NAME)";
+				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Sources/OCHelper\"";
@@ -567,7 +567,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				EXECUTABLE_PREFIX = lib;
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
-				PRODUCT_NAME = "$(MY_PRODUCT_NAME)";
+				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Sources/OCHelper\"";
 				SWIFT_VERSION = 5.0;
@@ -580,7 +580,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				EXECUTABLE_PREFIX = lib;
 				MY_PRODUCT_NAME = SwiftyIGYLogger;
-				PRODUCT_NAME = "$(MY_PRODUCT_NAME)";
+				PRODUCT_NAME = "${MY_PRODUCT_NAME}";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/Sources/OCHelper\"";
 				SWIFT_VERSION = 5.0;
@@ -590,7 +590,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EEA431122595F466002EC5ED /* Build configuration list for PBXProject "IGYLogger" */ = {
+		EEA431122595F466002EC5ED /* Build configuration list for PBXProject "SwiftyIGYLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEA4311E2595F467002EC5ED /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEA431202595F467002EC5ED /* Build configuration list for PBXNativeTarget "IGYLogger-macOS" */ = {
+		EEA431202595F467002EC5ED /* Build configuration list for PBXNativeTarget "SwiftyIGYLogger-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEA431212595F467002EC5ED /* Debug */,
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEA4313E2595F59F002EC5ED /* Build configuration list for PBXNativeTarget "IGYLogger-iOS" */ = {
+		EEA4313E2595F59F002EC5ED /* Build configuration list for PBXNativeTarget "SwiftyIGYLogger-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEA4313F2595F59F002EC5ED /* Debug */,
@@ -617,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEA431512595F647002EC5ED /* Build configuration list for PBXNativeTarget "IGYLogger-Static-macOS" */ = {
+		EEA431512595F647002EC5ED /* Build configuration list for PBXNativeTarget "SwiftyIGYLogger-Static-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEA431522595F647002EC5ED /* Debug */,
