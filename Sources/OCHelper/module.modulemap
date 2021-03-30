@@ -1,4 +1,0 @@
-module IGYOCLogger[system] {
-    header "IGYOCLogger.h"
-    export *
-}
